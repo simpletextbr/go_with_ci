@@ -1,7 +1,7 @@
 name: go-with-ci
 on: [push]
 jobs:
-  check:
+  check-go-app:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
